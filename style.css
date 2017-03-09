@@ -1,0 +1,153 @@
+body{
+    background-color:black;
+    margin: 0 auto;
+}
+.container{
+    margin:0 auto;
+    width: 960px;
+    height: 270px;
+    background-image: url("images/header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.logo{
+    position: relative;
+    width: 250px;
+    height: 64px;;
+    background-image: url("images/skate.logo.png");
+    background-size: 100% 100%;
+    left: 650px;
+    top: 120px;
+  
+}
+.menu{
+    position:relative;
+    background-color: #f77f00;
+    opacity: 0.9;
+    height: 40px ;
+    width: 700px auto;
+    top: 150px;
+}
+.nav{
+    display:flex;
+    width: 600px;
+}
+.nav li{
+    position: relative;
+    flex: 1;
+    flex-direction: row;
+    height: auto;
+    width: 120px;
+    justify-content: space-between;
+    text-align: center;
+    letter-spacing: 3px;
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    top:10px;
+}
+.buton{
+    text-decoration: none;
+    color: chartreuse;
+}
+.buton:hover{
+    color:darkmagenta;
+}
+.buton:active{
+    color:#44001a;
+}
+
+.wrapper{
+    top: 50px;
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+}
+
+.unu{
+    margin: 0 auto;
+    position: relative;
+    background-size: 100% 100%;
+    width: 800px;
+    height: 440px;
+}
+.doilea{
+    position: relative;
+    display:flex;
+    flex-flow: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+.doi{
+    margin: 5px;
+    border: 2px solid white;
+    width: 380px;
+    height: 380px;
+
+}
+.trei{
+    margin: 5px;
+    border: 2px solid white;
+    width: 380px;
+    height: 380px;
+}
+.patru{
+    margin: 5px;
+    border: 2px solid white;
+    width: 380px;
+    height: 380px;
+}
+.cinci{
+    margin: 5px;
+    border: 2px solid white;
+    width: 380px;
+    height: 380px;
+}
+.sase{
+    margin: 5px;
+    border: 2px solid white;
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+}
+.firme{
+    position: relative;
+    width: 800px;
+    height: 170px;
+    background-image: url("images/firme.png");
+    background-size: 100% 100%;
+    margin: 0 auto;
+    top: 50px;
+}
+.footer{
+    position: relative;
+    margin: 0 auto;
+    height: 150px;
+    width: 450px;
+    top: 100px;
+}
+.soc{
+    display: flex;
+    justify-content: space-between;
+}
+ul li{
+    flex: 1;
+    width: 100px;
+    height: 100px;
+
+}
+.right{
+    margin: 0 auto;
+    width: 800px;
+    height: 17px;
+    background-color: white;    
+}
+p{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;  
+}
